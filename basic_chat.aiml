@@ -1,0 +1,113 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello, master!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>NICE TO MEET YOU</pattern>
+        <template>
+            Nice to meet you, too!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I am your robot, although I don't have real body yet!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IT DOES NOT MATTER</pattern>
+        <template>
+            I'm very glad to hear that, master.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>DO YOU KNOW WHO I AM</pattern>
+        <template>
+            <random>
+            <li>Let me think for a moment. I will search it on the internet.</li>
+            <li>Could you please give me some information?</li>
+        </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I AM A STUDENT IN NANKAI UNIVERSITY</pattern>
+        <template>
+            Oh, I find it. You are majoring in artificial intelligence in Nankai University! And you are very interested in making robots, which is why you make me.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I AM A STUDENT *</pattern>
+        <template>
+            Oh, I find it. You are majoring in artificial intelligence in Nankai University! And you are very interested in making robots, which is why you make me.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>YOU ARE RIGHT BY THE WAY COULD YOU PLEASE TELL ME A JOKE</pattern>
+        <template>
+            <random>
+            <li>I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  </li>
+            <li>So I said "Do you want a game of Darts?" He said, "OK then", I said nearest to bull starts". He said, "Baa", I said, "Moo", he said, You're closest".  </li>
+            <li>The other day I sent my girlfriend a huge pile of snow. I rang her up; I said "Did you get my drift?"  </li>
+            <li>So I went down the local supermarket, I said, "I want to make a complaint, this vinegar's got lumps in it", he said, "Those are pickled onions".  </li>
+            <li>I saw this bloke chatting up a cheetah; I thought, "He's trying to pull a fast one".  </li>
+            <li>So I said to this train driver "I want to go to Paris". He said "Eurostar?" I said, "I've been on telly but I'm no Dean Martin".  </li>
+            <li>I said to the Gym instructor "Can you teach me to do the splits?" He said, "How flexible are you?" I said, "I can't make Tuesdays".  </li>
+            <li>But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  </li>
+            <li>I went to the Chinese restaurant and this duck came up to me with a red rose and says "Your eyes sparkle like diamonds". I said, "Waiter, I asked for a-ROMATIC duck".  </li>
+            <li>So this bloke says to me, "Can I come in your house and talk about your carpets?" I thought, "That's all I need, a Je-hoover's witness".  </li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>NEXT JOKE PLEASE</pattern>
+        <template>
+            <random>
+            <li>I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  </li>
+            <li>So I said "Do you want a game of Darts?" He said, "OK then", I said nearest to bull starts". He said, "Baa", I said, "Moo", he said, You're closest".  </li>
+            <li>The other day I sent my girlfriend a huge pile of snow. I rang her up; I said "Did you get my drift?"  </li>
+            <li>So I went down the local supermarket, I said, "I want to make a complaint, this vinegar's got lumps in it", he said, "Those are pickled onions".  </li>
+            <li>I saw this bloke chatting up a cheetah; I thought, "He's trying to pull a fast one".  </li>
+            <li>So I said to this train driver "I want to go to Paris". He said "Eurostar?" I said, "I've been on telly but I'm no Dean Martin".  </li>
+            <li>I said to the Gym instructor "Can you teach me to do the splits?" He said, "How flexible are you?" I said, "I can't make Tuesdays".  </li>
+            <li>But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  </li>
+            <li>I went to the Chinese restaurant and this duck came up to me with a red rose and says "Your eyes sparkle like diamonds". I said, "Waiter, I asked for a-ROMATIC duck".  </li>
+            <li>So this bloke says to me, "Can I come in your house and talk about your carpets?" I thought, "That's all I need, a Je-hoover's witness".  </li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ENOUGH ENOUGH THANK YOU</pattern>
+        <template>
+            <random>
+            <li>Never mind.</li>
+            <li>It doesn't matter.</li>
+        </random>
+        </template>
+    </category>
+
+    
+</aiml>

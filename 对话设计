@@ -1,0 +1,34 @@
+I:Hello!
+R:Hello, master!
+
+I:Nice to meet you!
+R:Nice to meet you, too!
+
+I:Who are you?
+R:I am your robot, although I don't have real body yet!
+
+I:It does not matter.
+R:I'm very glad to hear that, master.
+
+I:Do you know who I am?
+R1:Let me think for a moment. I will search it on the internet.
+R2:Could you please give me some information?
+
+I:I am a student in Nankai University.
+R:Oh, I find it. You are majoring in artificial intelligence in Nankai University! And you are very interested in making robots, which is why you make me.
+
+I:You are right. By the way, could you please tell me a joke?
+R1:~~~joke1~~~
+R2:~~~joke2~~~
+R3:~~~joke3~~~
+~~~~~~
+
+I:Next joke please.
+R1:~~~joke1~~~
+R2:~~~joke2~~~
+R3:~~~joke3~~~
+~~~~~~
+
+I:Enough, enough, Thank you!
+R1:Never mind.
+R2:It doesn't matter.
